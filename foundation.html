@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona Responsywna</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+	    <link rel="stylesheet" href="style_dodatkowy.css" />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+
+
+
+  <body style="background-color: #DAE4ED;">
+<nav class="top-bar" data-topbar role="navigation">
+	<ul class="title-area">
+		<li class="name"> <h1><a href="#">index</a></h1> </li>
+		<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	</ul>
+
+	<section class="top-bar-section">
+		<!-- Right Nav Section -->
+		<ul class="right">
+			<!-- <li class="active"><a href="#">Right Button Active</a></li>   -->
+			<li class="has-dropdown"> <a href="#">Dodatkowe info.</a>
+				<ul class="dropdown">
+				<li class="active"><a href="#">Wsparcie</a></li>
+				<li class="active"><a href="#">Kontakt</a></li>
+
+				</ul>
+			</li>
+		</ul>
+
+		<ul class="right">
+			<!-- <li class="active"><a href="#">Right Button Active</a></li>   -->
+			<li class="has-dropdown"> <a href="#">Pogramowanie</a>
+				<ul class="dropdown">
+				<li class="active"><a href="#">C</a></li>
+				<li class="active"><a href="#">PHP</a></li>
+				<li class="active"><a href="#">Html</a></li>
+				<li class="active"><a href="#">CSS</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<!-- Left Nav Section -->
+		<ul class="left">
+		<li><a href="http://dsamsoniuk.github.io/tabelka_c.html">Tabelka (czysty html)</a></li>
+		<li><a href="https://github.com/dsamsoniuk/laboratoria">Repozytorium laborek</a></li>
+		</ul>
+	</section>
+ </nav>
+
+
+
+	<header style="max-width:900px; margin:0 auto;">
+
+	<ul class="example-orbit" data-orbit>
+	<li> <img src="image/obraz1.jpg" alt="slide 1" />
+	<div class="orbit-caption">Witaj na stronie! </div> </li>
+	<li class="active"><img src="image/obraz2.jpg" alt="slide 2" />
+	<div class="orbit-caption"> Znajdziesz tutaj wiele ciekawych rozwiązań. </div> </li>
+	<li> <img src="image/obraz3.jpg" alt="slide 3" />
+	<div class="orbit-caption">Posiadam sporą ilość kodu źródłowego</div>
+	</li> </ul>
+
+
+	</header>
+
+	<article style=" max-width:900px; min-height:500px; margin:0 auto;">
+
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="panel"  style="background-color:#CEDBEB;">
+          <h3>Witam na stronie</h3>
+          <p>Strona obecnie oglądana została wykonana za pomocą frameworka Foundation.<br /><br />
+
+            Foundation is a responsive front-end framework. Foundation provides a responsive grid and plenty of HTML and
+            CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other
+            interface components, as well as optional JavaScript extensions. Foundation is maintained by zurb.com and is
+            an open source project.
+          </p>
+          <p>Link do strony z której można pobrać, <a href="http://foundation.zurb.com/">framework Foundation.</a></p>
+          <p style="font-size:12px;">24 marzec 2015</p>
+        </div>
+      </div>
+      <div class="large-6 columns">
+        <div class="panel"  style="background-color:#DAE4ED;">
+
+
+            <div data-interchange="[../examples/interchange/default.html, (small)], [../examples/interchange/medium.html, (medium)], [../examples/interchange/large.html, (large)]">
+          	<img data-interchange="[image/drzewko.jpg, (default)]">
+          	<noscript><img src="/path/to/default.jpg"></noscript>
+          	</div>
+            <p style="font-size:13px;">zdjecie drzewka</p>
+
+
+
+        </div>
+      </div>
+    </div>
+
+	<h4 style="margin-top:100px; text-align:center;">Mapa - miejsce w którym się uczę</h4>
+  <center>
+	<div id="map">
+
+	<script>
+// create a map in the "map" div, set the view to a given place and zoom
+var map = L.map('map').setView([54.3959882, 18.5731924], 15);
+
+// add an OpenStreetMap tile layer
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+// add a marker in the given location, attach some popup content to it and open the popup
+L.marker([54.3959882, 18.5731924]).addTo(map)
+    .bindPopup('Tutaj się uczę')
+    .openPopup();
+	</script>
+
+</div>
+</center>
+
+	</article>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+	<footer style="max-width:600px; margin:0 auto;">
+
+	<ul class="side-nav">
+	<li><a href="#">Index</a></li>
+	<li><a href="#">Galeria</a></li>
+	<li><a href="#">Kontakt</a></li>
+	<li><a href="#">Wsparcie</a></li>
+	</ul>
+
+	</footer>
+  </body>
+
+  </html>
