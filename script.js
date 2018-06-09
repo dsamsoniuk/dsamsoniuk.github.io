@@ -1,8 +1,3 @@
-console.log('to jest scryp');
-
-
-
-
 
 var func = {
 	box_cont : {
