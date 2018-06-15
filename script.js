@@ -36,6 +36,7 @@ var func = {
 				'addr' : '#'
 			}
 		}
+
 	},
 	// Pokaz jeden typ box-a
 	displayBoxLang : function(lang){
