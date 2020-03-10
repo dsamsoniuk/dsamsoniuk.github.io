@@ -83,7 +83,7 @@ a.menu:hover .bm{
 
 .footer {
     border-top: 7px dotted #414956;
-    border-bottom: 7px dotted #414956;
+    /* border-bottom: 7px dotted #414956; */
     text-align: center;
     padding:20px;
     /* background-color: #424242; */

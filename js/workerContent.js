@@ -34,6 +34,12 @@ var contentList = [
         tags: ['nodejs','js'],
         link: 'https://github.com/dsamsoniuk/multi_cat'
     },
+    {
+        title: "Układ słoneczny",
+        description: "Podgląd wszystkich planet naszego układu z opisem odległości. Proporcje odległości od słońca zostały zachowane. Wielkość słońca jest o połowe mniejsza.",
+        tags: ['js'],
+        viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
+    },
 ];
 
 
@@ -58,11 +64,19 @@ var workerContent = {
     },
     setContent: function(contentBox, cRow, cData){
         var row = cRow.clone();
-
+        var btnView = $('<a class="btn btn-success">podgląd</a>');
         row.find('.c-title').append(this.createIconList(cData.tags));
         row.find('.c-title-m').html(cData.title);
-        row.find('.c-description').html(cData.description)
-        row.find('.c-link a').attr('href', cData.link)
+        row.find('.c-description').html(cData.description);
+        if (!cData.link) {
+            row.find('.c-link a.btn-repo').remove();
+        } else {
+            row.find('.c-link a.btn-repo').attr('href', cData.link);
+        }
+        if (cData.viewLink) {
+            btnView.attr('href', cData.viewLink)
+            row.find('.c-link').append(btnView);
+        }
         row.removeClass('hidden')
         contentBox.append(row);
     },
