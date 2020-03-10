@@ -1,185 +1,74 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-  	<meta name="description" content="portfolio about programming">
-  	<meta name="keywords" content="PHP,C,JavaScript,portfolio">
-  	<meta name="author" content="Damian Samsoniuk">
-	<title>Blog@dsamsoniuk</title>
-	<script src="vendor/jquery/jquery.js"></script> 
-	<script src="vendor/bootstrap/js/bootstrap.js"></script> 
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
+    <head>
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-title">
+                        Projects@dsamsoniuk
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-12" id="menu-list">
 
-	<script src="script.js"></script> 
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+                        <div id="jquery-accordion-menu" class="jquery-accordion-menu">
+                            <div class="jquery-accordion-menu-header">Menu </div>
+                            <ul>
+                                <li class=""><a href="#" ><i class="fa fa-home"></i>Home </a></li>
+                            </ul>
+                            <div class="jquery-accordion-menu-header">Projects </div>
+                            <ul id="menu-list">
+                             <!--   <li class="active"><a href="#"><i class="fa fa-home"></i>Smfony </a></li> -->
+                                <li class="menu-row hidden">
+                                    <a href="#" class="menu-link"><img src="source/php-icon.png" class="img-sm img-def"/> <span class="bm-text"></span> </a>
+                                </li>
+                            </ul>
+                        </div>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">#</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-	<div id="menu">
-			<button type="button" onclick="func.displayBoxLang('all');"  class="btn btn-danger">Wszystko</button>
-		<button type="button" onclick="func.displayBoxLang('php');" class="btn btn-warning">PHP</button>
-		<button type="button" onclick="func.displayBoxLang('sym');"  class="btn btn-primary">Symfony</button>
-		<button type="button" onclick="func.displayBoxLang('js');"  class="btn btn-success">JavaScript</button>
-		<button type="button" onclick="func.displayBoxLang('c');"  class="btn btn-info">C</button>&nbsp;&nbsp;
-<!-- 		<a href="https://gitlab.com/damian12345"  class="btn btn-danger"> zapraszam również na GitLab</a> -->
-		<!-- <button type="button" onclick="func.displayBoxLang('ci');"  class="btn btn-primary">CodeIgnitor</button> -->
-	</div>
+                </div>
 
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-	<div class="container">
-		<div class="page-header">
-		  <h1>Blog <small>@ dsamsoniuk</small></h1>
-		</div>
+                <div class="col-lg-9 col-md-12">
+                    <div id="c-content">
 
-		<div class="content" id="m-container">
-			<!-- <h3>Full width, single column</h3>
-			<p class="text-warning">No grid classes are necessary for full-width elements.</p>
- -->
-			<div id="box-prog">
-				<!-- box -->
-				<div class="box-php boxl">
-						<h3>Framework PHP</h3>
-						<p>Framework napisany w czystym PHP 7</p>
-<!-- 				<button type="button" onclick="window.open('https://gitlab.com/damian12345/project_framework');" class="link btn">repozytorium</button> -->
-				<div class="space"></div>
-				<div class="date">
-					<h6>dodano: 08-18</h6>
-				</div>
-				</div>
+                        <div class="c-row-template hidden">
+                            <div class="c-title">
+                                <span class="c-title-m">Projekt 1232 </span>
+                            </div>
+                            <div class="c-description">
+                                Lelum po lelum asdsdsds Lelum po lelum asdsdsds Lelum po lelum asdsdsds Lelum po lelum asdsdsds 
+                            </div>
+                            <div class="c-link">
+                                <a class="btn btn-primary">repo</a>
+                            </div>
+                        </div>
 
-			    <div class="space"></div> 
-				
-			<div class="box-sym boxl">
-						<h3>Surowcowy geniusz V2</h3>
-						<p>Gra polegająca na wymianie, kupowaniu oraz tworzeniu budynków z których można pozyskiwać surowce. Gra została rozbudowana o system do przydzielania surowców. Market (w budowie) </p>
-<!-- 				<button type="button" onclick="window.open('https://gitlab.com/damian12345/gra-sg');" class="link btn">repozytorium</button> -->
-				<div class="space"></div>
-				<div class="date">
-					<h6>dodano: 08-18</h6>
-				</div>
-				</div>
+                    </div>
+                </div>
+            
+            </div>
 
-			    <div class="space"></div> 
-				
-				<div class="space"></div>  
-				<!-- box -->
-			<div class="box-js boxl">
-						<h3>Złap co wyniuchasz - Multiplayer</h3>
-						<p>Po wpisaniu nicku można rozpocząć grę na mapie. Zasada gry jest prosta złap więcej monent niż przeciwnik. <br> Gra oparta jest o node.js (moduł websocket), jquery</p>
-				<button type="button" onclick="window.open('https://github.com/dsamsoniuk/multi_cat');" class="link btn">repozytorium</button>
-				<div class="space"></div>
-				<div class="date">
-					<h6>dodano: 06-18</h6>
-				</div>
-				</div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer">
+                        <a href="#">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-					<div class="space"></div>  
-					<!-- box -->
-				<div class="box-js boxl">
-							<h3>Złap co wyniuchasz </h3>
-							<p>Prosta i sympatyczna gra napisana na js, gra polega na wyszukaniu wszystkich monet, sterowanie odbywa się za pomocą strzałek.</p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/przesuwacz');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 06-18</h6>
-					</div>
-					</div>
-
-				<div class="space"></div>  
-				<!-- box -->
-			<div class="box-sym boxl">
-						<h3>Surowcowy geniusz </h3>
-						<p>Gra polegająca na wymianie, kupowaniu oraz tworzeniu budynków z których można pozyskiwać surowce </p>
-				<button type="button" onclick="window.open('https://github.com/dsamsoniuk/surowcowygeniusz');" class="link btn">repozytorium</button>
-				<div class="space"></div>
-				<div class="date">
-					<h6>dodano: 06-18</h6>
-				</div>
-				</div>
-
-			    <div class="space"></div>  
-			    <!-- box -->
-				<div class="box-php boxl">
-			      	<h3>PHP - serwis (projekt zespołowy)</h3>
-			      	<p>Moduły wykonane w PHP. (logowanie, rejestracja, zamieszczanie zamowien i ich edycja itd.) </p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/projekt_zespolowy');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 01-16</h6>
-					</div>
-			    </div>
-
-			    <div class="space"></div>  
-			    <!-- box -->
-				<div class="box-php boxl">
-			      	<h3>PHP - Księga gości</h3>
-			      	<p>Skrypt tworzy okno w ktorym sa wyswietlane komentarze przekazane przez uzytkownikow i zapisywane w pliku.</p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/php/tree/master/komentarz');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 01-16</h6>
-					</div>
-			    </div>
-
-			    <div class="space"></div>  
-			    <!-- box -->
-				<div class="box-php boxl">
-			      	<h3>PHP - Licznik</h3>
-			      	<p>Licznik na strone który zapamiętuje użytkownika.</p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/php/tree/master/licznik');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 04-15</h6>
-					</div>
-			    </div>
-
-			    <div class="space"></div>  
-			    <!-- box -->
-				<div class="box-c boxl">
-			      	<h3>C - Graf</h3>
-			      	<p>Na podstawie podanych zmiennych program tworzy dane grafu skierowanego i prostego.</p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/c_programming');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 04-15</h6>
-					</div>
-			    </div>
-
-			    <div class="space"></div>  
-			    <!-- box -->
-				<div class="box-c boxl">
-			      	<h3>C - System liczb</h3>
-			      	<p>Tworzy liczby w systemie dwójkowym, ósemkowym, dziesiętnym, szestnastkowym lub U2 - 32. </p>
-					<button type="button" onclick="window.open('https://github.com/dsamsoniuk/c_programming');" class="link btn">repozytorium</button>
-					<div class="space"></div>
-					<div class="date">
-						<h6>dodano: 04-15</h6>
-					</div>
-			    </div>
-
-
-			</div>
-		</div>
-	</div>
-<div class="space"></div>
-
-
-</body>
+        <script src="libs/js/jquery-3.4.1.slim.min.js"  ></script>
+        <script src="libs/js/popper.min.js"></script>
+        <script src="libs/js/bootstrap.min.js" ></script>
+        <script src="js/workerMenu.js" ></script>
+        <script src="js/workerContent.js" ></script>
+        <script src="js/index.js" ></script>
+    </body>
 </html>
