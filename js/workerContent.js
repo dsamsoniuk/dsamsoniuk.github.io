@@ -17,6 +17,12 @@ var contentList = [
         link: 'https://gitlab.com/dsamsoniuk/konwerter_audio'
     },
     {
+        title: "Układ słoneczny",
+        description: "Podgląd wszystkich planet naszego układu z opisem odległości. Proporcje odległości od słońca zostały zachowane. Wielkość słońca jest o połowe mniejsza.",
+        tags: ['js'],
+        viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
+    },
+    {
         title: "MVC Framework DS",
         description: "Własnej roboty framework napisany w PHP 7, zawiera kontrolery, routing, szablon (Twig), ORM.",
         tags: ['php'],
@@ -33,13 +39,7 @@ var contentList = [
         description: "Prosta gra multiplayer, zasady gry są proste kto zbierze więcej monet wygrywa.",
         tags: ['nodejs','js'],
         link: 'https://github.com/dsamsoniuk/multi_cat'
-    },
-    {
-        title: "Układ słoneczny",
-        description: "Podgląd wszystkich planet naszego układu z opisem odległości. Proporcje odległości od słońca zostały zachowane. Wielkość słońca jest o połowe mniejsza.",
-        tags: ['js'],
-        viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
-    },
+    }
 ];
 
 
