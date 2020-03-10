@@ -5,16 +5,34 @@
  */
 var contentList = [
     {
-        title: "Witaj swiecie",
-        description: "Lelum po lelum Lelum po lelum Lelum po lelu3uuuuuuuuuuuuum",
+        title: "Gra 'Surowcowy Geniusz'",
+        description: "Gra strategiczna polegająca na tworzeniu budowli, zbieraniu surowców takich jak kamienie, drewno, żywność dzięki którym można handlować z innymi graczami. Również są możliwe konfrontacj z innymi graczami. Gra przypomina God of Empire lub Travian.",
         tags: ['php', 'symfony'],
-        link: 'repository.io'
+        link: 'https://gitlab.com/dsamsoniuk/empire'
     },
     {
-        title: "Witaj swiecie 22323",
-        description: "Lelum po lelum Lelum po lelum Lelusdsssssssssssss sssssssssssssssss sdsddddddddddddddddd dddddddddddddddddm po lelum asds sdssssssss",
-        tags: ['js', 'symfony', 'python'],
-        link: 'repository.io'
+        title: "Konwerter formatu muzyki",
+        description: "Konwerter wraz z GUI pozwala na zamiane formatu muzyki z mp3 na mp4, avi, flv itd.",
+        tags: ['python'],
+        link: 'https://gitlab.com/dsamsoniuk/konwerter_audio'
+    },
+    {
+        title: "MVC Framework DS",
+        description: "Własnej roboty framework napisany w PHP 7, zawiera kontrolery, routing, szablon (Twig), ORM.",
+        tags: ['php'],
+        link: 'https://gitlab.com/dsamsoniuk/ds_framework_mvc'
+    },
+    {
+        title: "Gazeta",
+        description: "Szablon gazety który pozwala na wyświetlanie artykułów oraz listy dodatkowo posiada system komentarzy.",
+        tags: ['php', 'symfony', 'js'],
+        link: 'https://gitlab.com/dsamsoniuk/newspaper'
+    },
+    {
+        title: "Gra 'MultiCat'",
+        description: "Prosta gra multiplayer, zasady gry są proste kto zbierze więcej monet wygrywa.",
+        tags: ['nodejs','js'],
+        link: 'https://github.com/dsamsoniuk/multi_cat'
     },
 ];
 
