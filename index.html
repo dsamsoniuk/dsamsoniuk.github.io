@@ -2,13 +2,22 @@
     <head>
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="libs/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css"  crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/menu.css">
+        <script src="libs/js/jquery-3.4.1.slim.min.js"  ></script>
+        <script src="libs/js/popper.min.js"></script>
+        <script src="libs/js/bootstrap.min.js" ></script>
     </head>
     <body>
         
         <div class="container">
+
+
+            <div class="row">
+                
+
+            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="box-title">
@@ -17,25 +26,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-12" id="menu-list">
+                <div class="col-xl-3 col-lg-12" id="menu-list">
 
                         <div id="jquery-accordion-menu" class="jquery-accordion-menu">
-                            <div class="jquery-accordion-menu-header">Menu </div>
-                            <ul>
+                            <div class="jquery-accordion-menu-header">Menu 
+
+                                <a href="" id="menu-switch">
+                                    <svg class="bi bi-justify icon-menu" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <ul class="menu-list-switch">
                                 <li class=""><a href="#" ><i class="fa fa-home"></i>Home </a></li>
                             </ul>
-                            <div class="jquery-accordion-menu-header">Projects </div>
-                            <ul id="menu-list">
-                             <!--   <li class="active"><a href="#"><i class="fa fa-home"></i>Smfony </a></li> -->
+                            <div class="jquery-accordion-menu-header menu-list-switch">Projects </div>
+                            <ul id="menu-list" class="menu-list-switch">
                                 <li class="menu-row hidden">
-                                    <a href="#" class="menu-link"><img src="source/php-icon.png" class="img-sm img-def"/> <span class="bm-text"></span> </a>
+                                    <a href="#" class="menu-link">
+                                        
+                                        <img src="source/php-icon.png" class="img-sm img-def"/> <span class="bm-text"></span> </a>
                                 </li>
                             </ul>
                         </div>
 
+
                 </div>
 
-                <div class="col-lg-9 col-md-12">
+                <div class="col-xl-9 col-lg-12">
                     <div id="c-content">
 
                         <div class="c-row-template hidden">
@@ -66,9 +84,7 @@
             </div>
         </div>
 
-        <script src="libs/js/jquery-3.4.1.slim.min.js"  ></script>
-        <script src="libs/js/popper.min.js"></script>
-        <script src="libs/js/bootstrap.min.js" ></script>
+
         <script src="js/workerMenu.js" ></script>
         <script src="js/workerContent.js" ></script>
         <script src="js/index.js" ></script>
