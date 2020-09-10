@@ -29,6 +29,12 @@ var contentList = [
         link: 'https://gitlab.com/dsamsoniuk/ds_framework_mvc'
     },
     {
+        title: "Tutorial PrestaShop 1.7.6.7",
+        description: "Poradnik z przykładami jak tworzyć poszczególne elementy PrestyShop np. modułu, widgety, kontrolery itd.",
+        tags: ['php'],
+        link: 'https://github.com/damian-pm/prestashop_examples'
+    },
+    {
         title: "Gazeta",
         description: "Szablon gazety który pozwala na wyświetlanie artykułów oraz listy dodatkowo posiada system komentarzy.",
         tags: ['php', 'symfony', 'js'],
