@@ -6,43 +6,43 @@
 var contentList = [
     {
         title: "Gra 'Surowcowy Geniusz'",
-        description: "Gra strategiczna polegająca na tworzeniu budowli, zbieraniu surowców takich jak kamienie, drewno, żywność dzięki którym można handlować z innymi graczami. Również są możliwe konfrontacj z innymi graczami. Gra przypomina God of Empire lub Travian.",
+        description:'Strategy game is about creating building, collecting materials like stones, wood, food which can be trade with other users. There is possible too start battles with players.',
         tags: ['php', 'symfony'],
         link: 'https://gitlab.com/dsamsoniuk/empire'
     },
     {
-        title: "Konwerter formatu muzyki",
-        description: "Konwerter wraz z GUI pozwala na zamiane formatu muzyki z mp3 na mp4, avi, flv itd.",
+        title: "Converter music format",
+        description: "Converter with GUI allows tochange format music mp3 to mp4, avi, flv itd.",
         tags: ['python'],
         link: 'https://gitlab.com/dsamsoniuk/konwerter_audio'
     },
     {
-        title: "Układ słoneczny",
-        description: "Podgląd wszystkich planet naszego układu z opisem odległości. Proporcje odległości od słońca zostały zachowane. Wielkość słońca jest o połowe mniejsza.",
+        title: "Solar system",
+        description: "View all planets of our solar system with description of distance. Propotion of distance from the sun has been preserved but the size of the sun was decresed to half of his size",
         tags: ['js'],
         viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
     },
     {
         title: "MVC Framework DS",
-        description: "Własnej roboty framework napisany w PHP 7, zawiera kontrolery, routing, szablon (Twig), ORM.",
+        description: "Simple framework writed in PHP 7 with composer. Framework includes controller, routing, templates and ORM",
         tags: ['php'],
         link: 'https://gitlab.com/dsamsoniuk/ds_framework_mvc'
     },
     {
         title: "Tutorial PrestaShop 1.7.6.7",
-        description: "Poradnik z przykładami jak tworzyć poszczególne elementy PrestyShop np. modułu, widgety, kontrolery itd.",
+        description:"Guide with examples how to create individual elements PrestaShop for example modules, widgets, controllers etc.",
         tags: ['php'],
         link: 'https://github.com/damian-pm/prestashop_examples'
     },
     {
-        title: "Gazeta",
-        description: "Szablon gazety który pozwala na wyświetlanie artykułów oraz listy dodatkowo posiada system komentarzy.",
+        title: "Newspaper",
+        description:'Template of portal newspaper, which contains displaying articles and list, additionally got comment system',
         tags: ['php', 'symfony', 'js'],
         link: 'https://gitlab.com/dsamsoniuk/newspaper'
     },
     {
-        title: "Gra 'MultiCat'",
-        description: "Prosta gra multiplayer, zasady gry są proste kto zbierze więcej monet wygrywa.",
+        title: "Game 'MultiCat'",
+        description: "Game multiplayer, roles of game are simple who will collect more coins will win. Game is controle by key arrows",
         tags: ['nodejs','js'],
         link: 'https://github.com/dsamsoniuk/multi_cat'
     }
