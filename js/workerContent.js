@@ -12,13 +12,13 @@ var contentList = [
     },
     {
         title: "Converter music format",
-        description: "Converter with GUI allows tochange format music mp3 to mp4, avi, flv itd.",
+        description: "Converter with GUI allows to change format music mp3 to mp4, avi, flv itd.",
         tags: ['python'],
         link: 'https://gitlab.com/dsamsoniuk/konwerter_audio'
     },
     {
         title: "Solar system",
-        description: "View all planets of our solar system with description of distance. Propotion of distance from the sun has been preserved but the size of the sun was decresed to half of his size",
+        description: "View all planets of our solar system with description of distance. Propotion of distance from the sun has been preserved but the size of the sun was decresed to half of his real size",
         tags: ['js'],
         viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
     },
