@@ -5,7 +5,7 @@
  */
 var contentList = [
     {
-        title: "Gra 'Surowcowy Geniusz'",
+        title: "Game 'Surowcowy Geniusz'",
         description:'Strategy game is about creating building, collecting materials like stones, wood, food which can be trade with other users. There is possible too start battles with players.',
         tags: ['php', 'symfony'],
         link: 'https://gitlab.com/dsamsoniuk/empire'
