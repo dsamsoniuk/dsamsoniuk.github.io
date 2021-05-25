@@ -6,7 +6,7 @@ body {
 
 .box-title {
     padding:40px;
-    font-size: 40px;
+    /* font-size: 40px; */
     border-bottom: 7px dotted #414956;
     margin:50px 0px;
 }
