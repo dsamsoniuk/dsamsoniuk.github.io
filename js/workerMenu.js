@@ -52,7 +52,9 @@ var workerMenu = {
         var row = {};
         for (var i=0; i < list.length; i++) {
             row = $(list[i]);
-            if (row.find('.menu-link').data('tag') === tag){
+            if (tag == '') {
+                row.addClass('active');
+            } else if (row.find('.menu-link').data('tag') === tag){
                 row.addClass('active');
             } else {
                 row.removeClass('active')
