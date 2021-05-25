@@ -11,7 +11,8 @@ $(document).ready(function(){
         var tag = $(this).data('tag');
         workerMenu.changeTag(tag);
         workerContent.init(contentList);
-        $('.menu-list-switch').hide();
+        if ($('#menu-switch').css('display') == 'block')
+            $('.menu-list-switch').hide();
     });
     // Burger menu
     $('#menu-switch').on('click', function(e){
