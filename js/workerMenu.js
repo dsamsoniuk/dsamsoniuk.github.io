@@ -5,6 +5,11 @@
  */
 var menuList = [
     {
+        text: 'Show all',
+        icon: '',
+        tag: ''
+    },
+    {
         text: 'Symfony',
         icon: 'source/symfony-icon.png',
         tag: 'symfony'
