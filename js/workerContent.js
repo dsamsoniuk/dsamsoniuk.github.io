@@ -5,6 +5,12 @@
  */
 var contentList = [
     {
+        title: "mamkolekcje.pl",
+        description:'Portal about collecting exhibits, you can enjoy giving commants, rate, voting, grouping exhibits. There is also forum, articles.',
+        tags: ['php', 'symfony'],
+        viewLink: 'http://mamkolekcje.pl'
+    },
+    {
         title: "Game 'Surowcowy Geniusz'",
         description:'Strategy game is about creating building, collecting materials like stones, wood, food which can be trade with other users. There is possible too start battles with players.',
         tags: ['php', 'symfony'],
