@@ -77,7 +77,7 @@ var workerContent = {
     setContent: function(contentBox, cRow, cData){
         var row = cRow.clone();
         var btnView = $('<a class="btn btn-success">podgląd</a>');
-        row.find('.c-title').append(this.createIconList(cData.tags));
+        row.find('.c-title').append( this.createIconList(cData.tags));
         row.find('.c-title-m').html(cData.title);
         row.find('.c-description').html(cData.description);
         if (!cData.link) {

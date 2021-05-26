@@ -67,9 +67,12 @@ a.menu:hover .bm{
 .c-title {
     font-size: 30px;
     padding:10px;
+
 }
 .c-title-m {
     margin:0px 10px;
+    width: 100%;
+    display: block;
 }
 .c-link {
     float:right;
