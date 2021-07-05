@@ -29,16 +29,16 @@ var contentList = [
         viewLink: 'https://dsamsoniuk.gitlab.io/uklad_sloneczny/'
     },
     {
-        title: "MVC Framework DS",
+        title: "Micro-framework CV",
         description: "Simple framework writed in PHP 7 with composer. Framework includes controller, routing, templates and ORM",
         tags: ['php'],
-        link: 'https://gitlab.com/dsamsoniuk/ds_framework_mvc'
+        link: 'https://github.com/dsamsoniuk/ds-framework'
     },
     {
         title: "Tutorial PrestaShop 1.7.6.7",
-        description:"Guide with examples how to create individual elements PrestaShop for example modules, widgets, controllers etc.",
+        description:"Guide with examples how to create individual elements PrestaShop for example modules, widgets, controllers etc. <br> <a href=\"https://www.prestashop.com/forums/profile/1644129-damian_pm\">Profile PS</a>",
         tags: ['php'],
-        link: 'https://github.com/damian-pm/prestashop_examples'
+        link: 'https://github.com/damian-pm/prestashop_examples',
     },
     {
         title: "Newspaper",
