@@ -16,7 +16,7 @@ a:hover {
     color: grey;
 }
 a.menu , a{
-    color: #ffffff;
+    color: #555edd;
 }
 a.menu:hover .bm{
     background-color: #424242a3;
