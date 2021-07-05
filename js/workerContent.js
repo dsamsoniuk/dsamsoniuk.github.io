@@ -35,8 +35,8 @@ var contentList = [
         link: 'https://github.com/dsamsoniuk/ds-framework'
     },
     {
-        title: "Tutorial PrestaShop 1.7.6.7",
-        description:"Guide with examples how to create individual elements PrestaShop for example modules, widgets, controllers etc. <br> <a href=\"https://www.prestashop.com/forums/profile/1644129-damian_pm\">Profile PS</a>",
+        title: "Tutorial PrestaShop 1.7.6.7 -  <a href=\"https://www.prestashop.com/forums/profile/1644129-damian_pm\">Profile PS</a>",
+        description:"Guide with examples how to create individual elements PrestaShop for example modules, widgets, controllers etc.",
         tags: ['php'],
         link: 'https://github.com/damian-pm/prestashop_examples',
     },
