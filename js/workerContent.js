@@ -20,7 +20,7 @@ var contentList = [
         title: "Converter music format",
         description: "Converter with GUI allows to change format music mp3 to mp4, avi, flv itd.",
         tags: ['python'],
-        link: 'https://gitlab.com/dsamsoniuk/konwerter_audio'
+        link: 'https://github.com/dsamsoniuk/music_convert'
     },
     {
         title: "Solar system",
