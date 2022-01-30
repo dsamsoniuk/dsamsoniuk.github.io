@@ -30,9 +30,13 @@ var menuList = [
         tag: 'nodejs'
     },
     {
-        text: 'React',
-        icon: 'source/react-icon.png',
-        tag: 'react'
+        text: 'Vue',
+        icon: '',
+        tag: 'vue'
+    },{
+        text: 'NativeScript',
+        icon: '',
+        tag: 'nativescript'
     },
     {
         text: 'Python',
