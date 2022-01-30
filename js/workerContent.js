@@ -41,16 +41,16 @@ var contentList = [
         link: 'https://github.com/damian-pm/prestashop_examples',
     },
     {
+        title: "Message - Chat",
+        description: "Simple chat between employeer and customer. After first enter to the web, customer unlogged will receives token which makes unique talk.",
+        tags: ['vue','js','php'],
+        link: 'https://github.com/dsamsoniuk/prestashop_examples/tree/master/examples/ModuleChat'
+    },
+    {
         title: "Newspaper",
         description:'Template of portal newspaper, which contains displaying articles and list, additionally got comment system',
         tags: ['php', 'symfony', 'js'],
         link: 'https://gitlab.com/dsamsoniuk/newspaper'
-    },
-    {
-        title: "Game 'MultiCat'",
-        description: "Game multiplayer, roles of game are simple who will collect more coins will win. Game is controle by key arrows",
-        tags: ['nodejs','js'],
-        link: 'https://github.com/dsamsoniuk/multi_cat'
     }
 ];
 
