@@ -31,11 +31,11 @@ var menuList = [
     },
     {
         text: 'Vue',
-        icon: '',
+        icon: 'source/vue.png',
         tag: 'vue'
     },{
         text: 'NativeScript',
-        icon: '',
+        icon: 'source/nativescript.png',
         tag: 'nativescript'
     },
     {

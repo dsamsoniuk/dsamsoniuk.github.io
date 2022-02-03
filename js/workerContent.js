@@ -5,6 +5,12 @@
  */
 var contentList = [
     {
+        title: "App course en",
+        description:'App course - learn english from mobile device. Select language show random text and translate if you need.',
+        tags: ['js', 'nativescript'],
+        link: 'https://github.com/dsamsoniuk/app-course-eng'
+    },
+    {
         title: "mamkolekcje.pl",
         description:'Portal about collecting exhibits, you can enjoy giving commants, rate, voting, grouping exhibits. There is also forum, articles.',
         tags: ['php', 'symfony'],
@@ -41,7 +47,7 @@ var contentList = [
         link: 'https://github.com/damian-pm/prestashop_examples',
     },
     {
-        title: "Message - Chat",
+        title: "PrestaShop module - Chat bot",
         description: "Simple chat between employeer and customer. After first enter to the web, customer unlogged will receives token which makes unique talk.",
         tags: ['vue','js','php'],
         link: 'https://github.com/dsamsoniuk/prestashop_examples/tree/master/examples/ModuleChat'
@@ -76,7 +82,7 @@ var workerContent = {
     },
     setContent: function(contentBox, cRow, cData){
         var row = cRow.clone();
-        var btnView = $('<a class="btn btn-success">podgląd</a>');
+        var btnView = $('<a class="btn btn-success">view</a>');
         row.find('.c-title').append( this.createIconList(cData.tags));
         row.find('.c-title-m').html(cData.title);
         row.find('.c-description').html(cData.description);
