@@ -6,19 +6,20 @@
 var contentList = [
     {
         title: "App course en",
-        description:'App course - learn english from mobile device. Select language show random text and translate if you need.',
+        description:'App course - learn english from mobile device. Select language show random text and try translate.',
         tags: ['js', 'nativescript'],
         link: 'https://github.com/dsamsoniuk/app-course-eng'
     },
     {
         title: "mamkolekcje.pl",
-        description:'Portal about collecting exhibits, you can enjoy giving commants, rate, voting, grouping exhibits. There is also forum, articles.',
+        description:'Portal about collecting exhibits, you can enjoy giving commants, rate, voting, grouping exhibits. There is also forum, articles, newses.',
         tags: ['php', 'symfony'],
         viewLink: 'http://mamkolekcje.pl'
     },
     {
+        
         title: "Game 'Surowcowy Geniusz'",
-        description:'Strategy game is about creating building, collecting materials like stones, wood, food which can be trade with other users. There is possible too start battles with players.',
+        description:'It is strategy game. Game allow to create buildings. gathering resources like stone,wood or food. You can also trade resources in market and even you can fight with other players.',
         tags: ['php', 'symfony'],
         link: 'https://gitlab.com/dsamsoniuk/empire'
     },
