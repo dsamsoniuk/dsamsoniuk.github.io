@@ -5,3 +5,11 @@ body {
     max-width: 50px;
     max-height: 50px;
 }
+.header_php {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+}
+.header_py {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background: linear-gradient(135deg, #2d6a4f, #40916c);
+}
